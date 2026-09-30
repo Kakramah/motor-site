@@ -1,0 +1,199 @@
+{
+  "assets": [
+    {
+      "path": "assets/brand/eagle-emblem-metal.svg",
+      "kind": "brand",
+      "source": "هوية خلدون المعتمدة؛ assets/identity.json",
+      "rights": "استعمال لهوية خلدون ضمن مشروعه",
+      "caption": "شعار خلدون عكرمة",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/IBMPlexSansArabic-Bold.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/IBMPlexSansArabic-Medium.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/IBMPlexSansArabic-Regular.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/NotoNaskhArabic-VF.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/Tajawal-Bold.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/fonts/Tajawal-Regular.woff2",
+      "kind": "font",
+      "source": "assets/README.md وملفات OFL",
+      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
+      "caption": "",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/hero.jpg",
+      "kind": "photo",
+      "source": "AI Generated Concept",
+      "rights": "Creative Use Allowed",
+      "caption": "موتور - البطل والوحش",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/speed_blur.jpg",
+      "kind": "photo",
+      "source": "AI Generated Concept",
+      "rights": "Creative Use Allowed",
+      "caption": "السرعة الطائشة - منظور السائق",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/helmet_crash.jpg",
+      "kind": "photo",
+      "source": "AI Generated Concept",
+      "rights": "Creative Use Allowed",
+      "caption": "خوذة محطمة بعد الحادث",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/dark_end.jpg",
+      "kind": "photo",
+      "source": "AI Generated Concept",
+      "rights": "Creative Use Allowed",
+      "caption": "النهاية الحتمية - الطريق المظلم",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/screenshot-desktop.jpg",
+      "kind": "photo",
+      "source": "Screenshot",
+      "rights": "Generated",
+      "caption": "Desktop Screenshot",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "assets/images/screenshot-mobile.jpg",
+      "kind": "photo",
+      "source": "Screenshot",
+      "rights": "Generated",
+      "caption": "Mobile Screenshot",
+      "visual_match": true,
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "An image",
+        "placement_reason": "Fits the narrative",
+        "caption_match_note": "Matches caption",
+        "checked_at": "2026-09-30"
+      }
+    }
+  ]
+}

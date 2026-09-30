@@ -1,0 +1,31 @@
+{
+  "concept": {
+    "idea": "Motorcycle dangers",
+    "why_this_subject": "Awareness",
+    "hero_decision": "Show the speed illusion",
+    "signature_moment": "The broken helmet"
+  },
+  "beats": [
+    {
+      "section": "hero",
+      "reader_change": "feels speed",
+      "visual_change": "bright to dark"
+    },
+    {
+      "section": "end",
+      "reader_change": "feels fear",
+      "visual_change": "dark to darker"
+    }
+  ],
+  "screenshots": {
+    "desktop": "reviews/desktop.jpg",
+    "mobile": "reviews/mobile.jpg"
+  },
+  "review": {
+    "status": "pass",
+    "note": "Looks good",
+    "revisions": "None",
+    "checked_at": "2026-09-30",
+    "build_fingerprint": "06d8af688e94c1151251935cbc6c88ea1737875974135687c813e11d6932129b"
+  }
+}

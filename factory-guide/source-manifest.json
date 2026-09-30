@@ -1,0 +1,33 @@
+{
+  "reviewed_at": "2026-09-29",
+  "sources": [
+    {
+      "path": "~/khaldoun/identity/values.md",
+      "sha256": "839217492f7bc256aa60552d7552cb43215b3760051bef99327ed80a510a9b53"
+    },
+    {
+      "path": "~/khaldoun/knowledge/visual/frontend-page-design.md",
+      "sha256": "100b444ebd70a73f7626d28b80c5aaa337ac2b7185391b832b2d714e19f6c2e3"
+    },
+    {
+      "path": "~/khaldoun/knowledge/visual/prompt-series-continuity.md",
+      "sha256": "df0f68abd8e7b8aeaa2733295bae2422184d3b7a26c2e247324ce1430a92ea52"
+    },
+    {
+      "path": "~/khaldoun-projects/khaldoun-web-starter/docs/قواعد-الويب.md",
+      "sha256": "c5d00a642947bb18c112ab7d66515d4d19a1e61cb8339957ec0147d32437d8be"
+    },
+    {
+      "path": "~/khaldoun-projects/middle-east-power-trap/index.html",
+      "sha256": "83bb32c1d9bdf5a4547acb411e1ddb7ad5c03f711387e17b594c5e66bf41fd00"
+    },
+    {
+      "path": "~/Music/Music/codex/geopolitical-crosswinds/index.html",
+      "sha256": "ccd51f2d27b32dc11923bef625d3106c32feba1d2fd138421576bdec543080f1"
+    },
+    {
+      "path": "~/Music/Music/codex/antigravity-jableh-style-export/WORKFLOW.md",
+      "sha256": "6522267d6104ca9476de55f9bea0edf9020626d7a3422fc4374fec2b2226e23a"
+    }
+  ]
+}

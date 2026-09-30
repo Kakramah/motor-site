@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "desktop": {
+      "status": "pass",
+      "note": "Checked on desktop"
+    },
+    "mobile375": {
+      "status": "pass",
+      "note": "Checked on mobile"
+    },
+    "tablet768": {
+      "status": "pass",
+      "note": "Checked on tablet"
+    },
+    "keyboard": {
+      "status": "pass",
+      "note": "Checked keyboard nav"
+    },
+    "reduced_motion": {
+      "status": "pass",
+      "note": "Checked reduced motion"
+    },
+    "no_javascript": {
+      "status": "pass",
+      "note": "Checked without JS"
+    },
+    "core_flow": {
+      "status": "pass",
+      "note": "Checked core flow"
+    },
+    "sources": {
+      "status": "pass",
+      "note": "Checked sources"
+    },
+    "print": {
+      "status": "pass",
+      "note": "Checked print layout"
+    }
+  }
+}

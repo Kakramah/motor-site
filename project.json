@@ -1,0 +1,14 @@
+{
+  "factory_version": "1.2.0",
+  "name": "motor",
+  "title": "موتور",
+  "recipe": "service",
+  "style": "immersive",
+  "status": "ready",
+  "content_scope": "analysis",
+  "published_url": "https://khaldoun.example.com/",
+  "features": {
+    "print": true
+  },
+  "image_budget_kb": 4096
+}

@@ -1,0 +1,22 @@
+{
+  "factory_version": "1.2.0",
+  "factory_source": "~/khaldoun-projects/khaldoun-website-factory",
+  "web_rules_source": "~/khaldoun-projects/khaldoun-web-starter/docs/قواعد-الويب.md",
+  "files_sha256": {
+    "factory-guide/ART-DIRECTION.md": "fd0db1cd5d1aee1dbdd1b886aeaab0c2809894fbe723c3e1dc260e0c1e6d5c8a",
+    "factory-guide/ASSISTANT-ADAPTERS.md": "62475ae5b3e93a2b96d105566052270fe3d8aabab98214ae311aca6211d5efe2",
+    "factory-guide/COMPONENTS.md": "c16790a966c40182b2525e5f6b4b8640e739861ee5e1b50b2baa87c7ba977f3c",
+    "factory-guide/DATA-CONTRACT.md": "1acefd6d1a2d36e7de50efb9cecb7519aa117ebf84bc246e6d9284ff9d58176e",
+    "factory-guide/DELIVERY.md": "27ed870223ea8578c4df1a1ef4bd44dcdcafe6027d7a7ae843e1133382b588fc",
+    "factory-guide/PROVENANCE.md": "f06c6fba3d753a15346e56723c85ac2a0db2efa31b9d314b45405a6fc4177ded",
+    "factory-guide/QUALITY.md": "9d3018cb4cc55cd6bb49007e613e83660edfb69afc031100dd9be264325d256b",
+    "factory-guide/RESEARCH.md": "16da6bc1cb8e57c75d59703b4b0184b0393755298b1a155991415d593514672b",
+    "factory-guide/TECHNICAL.md": "7dc37b5e9fe90a2ab7cf4a22c116f70d8f9657b35af75d1fa22463b995c4d524",
+    "factory-guide/VISUALS.md": "70f00847ebdfc35c9d5296ce74d6d8971d550a2ae56f04706f4a935c02fdbcaa",
+    "factory-guide/WORKFLOW.md": "b00cb0efdda2f2ba4f849e78fa8b61242f9fbbafc5bc80cec2916e4ded4bba7d",
+    "factory-guide/source-manifest.json": "31a8b68725ce52e4140f8a4a1df67a965b0299ad86f96d7a98d1d66f49f6683c",
+    "scripts/check_site.py": "98357694590e80ffa36d6ff26629a63c13b359aea6dd3f51398ae09ba338ec89",
+    "skills/visual-reference-selector/SKILL.md": "6051b8057060a623f8c2ce1588a7c5cd99671545207b98d41e95e4c1292f5525",
+    "skills/visual-reference-selector/references/2025-2026-candidates.md": "2776c7efd15039253d2c548b77b6885bb7750b124de4c01668f35eef6e372b61"
+  }
+}
