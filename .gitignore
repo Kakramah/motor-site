@@ -1,9 +1,18 @@
 .DS_Store
-__pycache__/
-*.pyc
+._*
 .env
 .env.*
-!.env.example
+*.bak
+node_modules/
+__pycache__/
+*.pyc
 .qa/
 output/
-node_modules/
+# نسخ المصنع المحمولة وملفات البناء القديمة: محلية لا تُنشر
+factory-guide/
+skills/
+scripts/
+assets/
+theme.css
+site.css
+app.js

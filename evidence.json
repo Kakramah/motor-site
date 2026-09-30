@@ -1,13 +1,4 @@
 {
-  "claims": [
-    {
-      "id": "claim-1",
-      "text": "السرعة الطائشة لا تقودك إلى وجهتك",
-      "status": "verified",
-      "source_url": "https://khaldoun.example.com/stats",
-      "source_title": "إحصاءات مرورية",
-      "checked_at": "2026-09-30",
-      "locator": "claim-1"
-    }
-  ]
+  "claims": [],
+  "note": "النص دعوة توعوية بلا رقم ولا تاريخ ولا اسم ولا اقتباس. أُزيل رابط مصدر وهمي (khaldoun.example.com) كان يدّعي إحصاءات غير موجودة."
 }

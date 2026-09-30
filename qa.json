@@ -1,40 +1,42 @@
 {
+  "checked_at": "2026-09-30",
+  "checked_by": "Claude، بمتصفح Chrome عبر DevTools ولوحة المعاينة",
   "checks": {
     "desktop": {
       "status": "pass",
-      "note": "Checked on desktop"
+      "note": "1440×900: الافتتاحية والفصول الثلاثة والمشاركة والذيل؛ لا تمرير أفقي (scrollWidth 1440). لقطتان في reviews/"
     },
     "mobile375": {
       "status": "pass",
-      "note": "Checked on mobile"
+      "note": "375×812: عمود واحد، الصورة ثم النص، لا تثبيت ولا تكبير مع التمرير؛ scrollWidth 375؛ الأزرار 48px فأكثر"
     },
     "tablet768": {
       "status": "pass",
-      "note": "Checked on tablet"
+      "note": "من 768px يبدأ التخطيط بعمودين بقاعدة min-width: 768px؛ تحته عمود واحد"
     },
     "keyboard": {
       "status": "pass",
-      "note": "Checked keyboard nav"
+      "note": "زر التكبير يأخذ التركيز، Esc يغلق ويعيد التركيز إلى الزر، الأسهم تتنقل (اليمين للسابق)، والتركيز محصور في النافذة؛ :focus-visible أحمر ظاهر"
     },
     "reduced_motion": {
       "status": "pass",
-      "note": "Checked reduced motion"
+      "note": "كل حركة داخل prefers-reduced-motion: no-preference، والتكبير مع التمرير يتوقف عند تخفيف الحركة"
     },
     "no_javascript": {
       "status": "pass",
-      "note": "Checked without JS"
+      "note": "الإخفاء قبل الظهور مشروط بصنف js يضيفه السكربت، فالنص ظاهر كاملاً بلا JavaScript؛ روابط المشاركة تحمل الرابط المطلق في HTML"
     },
     "core_flow": {
       "status": "pass",
-      "note": "Checked core flow"
+      "note": "زر شارك رسالة التوعية يفتح مشاركة الجهاز أو ينسخ الرابط؛ روابط واتساب وتلغرام وإكس وفيسبوك تحمل العنوان والرابط المطلق؛ لا أخطاء في الكونسول"
     },
     "sources": {
-      "status": "pass",
-      "note": "Checked sources"
+      "status": "not-applicable",
+      "note": "النص بلا رقم أو تاريخ أو اسم أو اقتباس؛ content_scope = original-nonfactual"
     },
     "print": {
       "status": "pass",
-      "note": "Checked print layout"
+      "note": "@media print يخفي الشريط والمشاركة والتكبير ويطبع النص أسود على أبيض"
     }
   }
 }

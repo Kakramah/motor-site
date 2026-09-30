@@ -1,199 +1,88 @@
 {
   "assets": [
     {
-      "path": "assets/brand/eagle-emblem-metal.svg",
+      "path": "images/hero.jpg",
+      "kind": "generated",
+      "source": "مولّدة بالذكاء الاصطناعي لهذا المشروع",
+      "rights": "أصل مولّد لخلدون عكرمة، يُنشر ضمن الحملة",
+      "caption": "بلا تسمية ظاهرة: صورة استعارية (قواعد الويب 4.9.6)",
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "راكب دراجة نارية برأس ثور ونظارة شمسية على طريق ترابي، وخلفه غبار يتشكل وجهين يصرخان",
+        "placement_reason": "الافتتاحية: التهور ثور هائج، وضحاياه في الغبار الذي يخلفه",
+        "caption_match_note": "alt يصف الراكب والوجوه كما تظهر؛ لا تسمية لأنها استعارة لا توثيق",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "images/speed_blur.jpg",
+      "kind": "generated",
+      "source": "مولّدة بالذكاء الاصطناعي لهذا المشروع",
+      "rights": "أصل مولّد لخلدون عكرمة، يُنشر ضمن الحملة",
+      "caption": "وصف التكبير: تصوّر بصري",
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "منظور الراكب: عداد برتقالي فوق 140 على طريق سريع ليلي، والسيارات والأضواء ضبابية",
+        "placement_reason": "وهم السيطرة: القارئ يرى الطريق من عيني المسرع",
+        "caption_match_note": "العنوان والوصف في نافذة التكبير يطابقان العداد والأضواء، ويعلنان أنها تصوّر بصري",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "images/helmet_crash.jpg",
+      "kind": "generated",
+      "source": "مولّدة بالذكاء الاصطناعي لهذا المشروع",
+      "rights": "أصل مولّد لخلدون عكرمة، يُنشر ضمن الحملة",
+      "caption": "وصف التكبير: تصوّر بصري",
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "خوذة سوداء مهشمة الواجهة على إسفلت متشقق ليلاً، وزجاج متناثر، وضوء أحمر لسيارة في البعيد",
+        "placement_reason": "الواقع المأساوي: الخوذة الشاهد الوحيد كما يقول النص",
+        "caption_match_note": "النص يذكر تهشم الزجاج والخوذة الشاهدة، والصورة تظهرهما",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "images/dark_end.jpg",
+      "kind": "generated",
+      "source": "مولّدة بالذكاء الاصطناعي لهذا المشروع",
+      "rights": "أصل مولّد لخلدون عكرمة، يُنشر ضمن الحملة",
+      "caption": "وصف التكبير: تصوّر بصري",
+      "visual_review": {
+        "status": "confirmed",
+        "depicts": "طريق إسفلتي خالٍ بين أشجار في الضباب، وفي آخره هيئة بعباءة سوداء ومنجل أمام وهج أحمر",
+        "placement_reason": "الطريق المظلم: السرعة تختصر الطريق نحو النهاية",
+        "caption_match_note": "الوصف يقول من ينتظر المسرع في آخر الطريق، والصورة تظهر هيئة الموت هناك",
+        "checked_at": "2026-09-30"
+      }
+    },
+    {
+      "path": "images/share.jpg",
+      "kind": "generated",
+      "source": "مقصوصة من images/speed_blur.jpg إلى 1200×630",
+      "rights": "أصل مولّد لخلدون عكرمة، يُنشر ضمن الحملة",
+      "caption": "صورة المشاركة، لا تظهر في الصفحة"
+    },
+    {
+      "path": "images/eagle-emblem-metal.svg",
       "kind": "brand",
-      "source": "هوية خلدون المعتمدة؛ assets/identity.json",
-      "rights": "استعمال لهوية خلدون ضمن مشروعه",
-      "caption": "شعار خلدون عكرمة",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
+      "source": "~/khaldoun-brand/eagle/eagle-emblem-metal.svg (مطابق بايتاً ببايت)",
+      "rights": "هوية خلدون عكرمة",
+      "caption": "العقاب المعتمد لهوية خلدون عكرمة"
     },
     {
-      "path": "assets/fonts/IBMPlexSansArabic-Bold.woff2",
+      "path": "fonts/Tajawal-Regular.woff2",
       "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
+      "source": "Tajawal من google/fonts",
+      "rights": "SIL Open Font License 1.1: fonts/OFL-Tajawal.txt",
+      "caption": ""
     },
     {
-      "path": "assets/fonts/IBMPlexSansArabic-Medium.woff2",
+      "path": "fonts/Tajawal-Bold.woff2",
       "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/fonts/IBMPlexSansArabic-Regular.woff2",
-      "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/fonts/NotoNaskhArabic-VF.woff2",
-      "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/fonts/Tajawal-Bold.woff2",
-      "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/fonts/Tajawal-Regular.woff2",
-      "kind": "font",
-      "source": "assets/README.md وملفات OFL",
-      "rights": "SIL Open Font License؛ احتفظ بالترخيص",
-      "caption": "",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/hero.jpg",
-      "kind": "photo",
-      "source": "AI Generated Concept",
-      "rights": "Creative Use Allowed",
-      "caption": "موتور - البطل والوحش",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/speed_blur.jpg",
-      "kind": "photo",
-      "source": "AI Generated Concept",
-      "rights": "Creative Use Allowed",
-      "caption": "السرعة الطائشة - منظور السائق",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/helmet_crash.jpg",
-      "kind": "photo",
-      "source": "AI Generated Concept",
-      "rights": "Creative Use Allowed",
-      "caption": "خوذة محطمة بعد الحادث",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/dark_end.jpg",
-      "kind": "photo",
-      "source": "AI Generated Concept",
-      "rights": "Creative Use Allowed",
-      "caption": "النهاية الحتمية - الطريق المظلم",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/screenshot-desktop.jpg",
-      "kind": "photo",
-      "source": "Screenshot",
-      "rights": "Generated",
-      "caption": "Desktop Screenshot",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
-    },
-    {
-      "path": "assets/images/screenshot-mobile.jpg",
-      "kind": "photo",
-      "source": "Screenshot",
-      "rights": "Generated",
-      "caption": "Mobile Screenshot",
-      "visual_match": true,
-      "visual_review": {
-        "status": "confirmed",
-        "depicts": "An image",
-        "placement_reason": "Fits the narrative",
-        "caption_match_note": "Matches caption",
-        "checked_at": "2026-09-30"
-      }
+      "source": "Tajawal من google/fonts",
+      "rights": "SIL Open Font License 1.1: fonts/OFL-Tajawal.txt",
+      "caption": ""
     }
   ]
 }

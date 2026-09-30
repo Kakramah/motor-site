@@ -5,7 +5,7 @@
   "recipe": "service",
   "style": "immersive",
   "status": "ready",
-  "content_scope": "analysis",
+  "content_scope": "original-nonfactual",
   "published_url": "https://kakramah.github.io/motor-site/",
   "features": {
     "print": true

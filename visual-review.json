@@ -1,31 +1,45 @@
 {
   "concept": {
-    "idea": "Motorcycle dangers",
-    "why_this_subject": "Awareness",
-    "hero_decision": "Show the speed illusion",
-    "signature_moment": "The broken helmet"
+    "idea": "الاسم نفسه تحذير: موتور تبدأ بكلمة موت، والصفحة تمشي من نشوة السرعة إلى الحادث إلى الطريق المظلم",
+    "why_this_subject": "حملة توعية بأخطار الدراجات النارية والقيادة المتهورة",
+    "hero_decision": "صورة الثور الراكب شاشة كاملة، والعنوان فوقها في المنتصف لأن الكلمة هي الفكرة",
+    "signature_moment": "كلمة موت بالأحمر داخل كلمة موتور"
   },
   "beats": [
     {
-      "section": "hero",
-      "reader_change": "feels speed",
-      "visual_change": "bright to dark"
+      "section": "الافتتاحية",
+      "reader_change": "يقرأ اسم الآلة فيرى الموت داخله",
+      "visual_change": "شاشة كاملة بصورة عمودية وعنوان في المنتصف"
     },
     {
-      "section": "end",
-      "reader_change": "feels fear",
-      "visual_change": "dark to darker"
+      "section": "وهم السيطرة",
+      "reader_change": "يعيش النشوة من عيني المسرع",
+      "visual_change": "عمودان: الطريق من خلف العداد، والنص بجانبه"
+    },
+    {
+      "section": "الواقع المأساوي",
+      "reader_change": "النشوة تنقطع في جزء من الثانية",
+      "visual_change": "تتبادل الصورة والنص الجهة، والعنوان يصير أحمر"
+    },
+    {
+      "section": "الدعوة",
+      "reader_change": "من الخوف إلى فعل: المشاركة",
+      "visual_change": "لا صورة؛ وسط الصفحة ووهج أحمر خافت وزر كبير"
     }
   ],
   "screenshots": {
     "desktop": "reviews/desktop.jpg",
-    "mobile": "reviews/mobile.jpg"
+    "mobile": "reviews/mobile.jpg",
+    "extra": [
+      "reviews/desktop-impact.jpg",
+      "reviews/mobile-share.jpg"
+    ]
   },
   "review": {
     "status": "pass",
-    "note": "Looks good",
-    "revisions": "None",
+    "note": "شوهدت الصفحة كاملة على 1440 و375: العنوان يلوّن موت كاملة، والتاء حمراء بعد إزالة محارف الوصل؛ الفصول تتبادل؛ المشاركة والتكبير يعملان",
+    "revisions": "زر المشاركة الرئيسي نُقل إلى سطر مستقل بعد أن ظهر ملتصقاً بالأزرار الثانوية؛ أزيلت محارف الوصل من العنوان لأنها كانت تترك التاء بيضاء",
     "checked_at": "2026-09-30",
-    "build_fingerprint": "06d8af688e94c1151251935cbc6c88ea1737875974135687c813e11d6932129b"
+    "build_fingerprint": "d743946290f5f8cfa7242ead8d8d0498a2a035995ea536abb0393f25a44201fb"
   }
 }

@@ -1,95 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موتور | سرعة طائشة... ونهاية واحدة</title>
-    <link rel="stylesheet" href="theme.css">
-    <link rel="stylesheet" href="site.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
-    <meta property="og:title" content="موتور | سرعة طائشة... ونهاية واحدة">
-    <meta property="og:description" content="حياتك أغلى من سرعة عابرة. شارك رسالة التوعية حول أخطار الدراجات النارية.">
-    <meta property="og:image" content="https://kakramah.github.io/motor-site/assets/images/speed_blur.jpg">
-    <meta property="og:url" content="https://kakramah.github.io/motor-site/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>موتور: سرعة طائشة ونهاية واحدة</title>
+  <meta name="description" content="موتور: حملة توعية بأخطار الدراجات النارية والسرعة الطائشة، من وهم السيطرة على الطريق إلى الخوذة المهشمة، وإلى عائلة تدفع ثمن لحظة تهور.">
+  <meta name="author" content="𝓚𝓱𝓪𝓵𝓭𝓸𝓾𝓷𝓐𝓴𝓻𝓪𝓶𝓪𝓱">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="موتور: سرعة طائشة ونهاية واحدة">
+  <meta property="og:description" content="حياتك أغلى من سرعة عابرة. حملة توعية بأخطار الدراجات النارية والقيادة المتهورة.">
+  <meta property="og:image" content="https://kakramah.github.io/motor-site/images/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://kakramah.github.io/motor-site/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="موتور: سرعة طائشة ونهاية واحدة">
+  <meta name="twitter:description" content="حياتك أغلى من سرعة عابرة. حملة توعية بأخطار الدراجات النارية والقيادة المتهورة.">
+  <meta name="twitter:image" content="https://kakramah.github.io/motor-site/images/share.jpg">
+  <link rel="icon" type="image/svg+xml" href="images/eagle-emblem-metal.svg">
+  <link rel="preload" href="fonts/Tajawal-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-<body data-recipe="editorial" data-style="immersive">
-    <main>
-        <section class="hero-section" id="hero">
-            <div class="hero-background">
-                <img src="assets/images/hero.jpg" alt="Motor Bull" class="hero-img">
-                <div class="vignette"></div>
-            </div>
-            
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="text-reveal">موتـ<span class="text-red">ـور</span></span>
-                </h1>
-                <p class="hero-subtitle">
-                    <span class="text-reveal delay-1">سرعة طائشة... ونهاية واحدة.</span>
-                </p>
-                <div class="scroll-indicator">
-                    <div class="mouse"></div>
-                    <p>شاهد الحقيقة</p>
-                </div>
-            </div>
-        </section>
+<body>
+  <div class="progress" aria-hidden="true"><span></span></div>
 
-        <!-- Storyboard Sections -->
-        <section class="story-section">
-            <div class="story-image-container sticky-img">
-                <img src="assets/images/speed_blur.jpg" alt="سرعة زائدة" class="story-img">
-                <div class="vignette-overlay"></div>
-            </div>
-            <div class="story-content scroll-reveal">
-                <h2 class="story-title">وهم السيطرة</h2>
-                <p class="story-desc">عداد السرعة يتجاوز الحدود، الأضواء تتداخل، والأدرينالين يعمي البصيرة. في هذه اللحظة، تعتقد أنك تملك الشارع، لكنك في الواقع تفقد السيطرة على حياتك.</p>
-            </div>
-        </section>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <img class="hero-img" src="images/hero.jpg" alt="راكب دراجة نارية برأس ثور يشق طريقاً ترابياً، وخلفه غبار يتشكل وجوهاً تصرخ." width="1071" height="1920" fetchpriority="high">
+      </div>
+      <div class="hero-content">
+        <h1 id="hero-title" class="hero-title"><span class="text-reveal"><span class="death">موت</span>ور</span></h1>
+        <p class="hero-subtitle"><span class="text-reveal delay-1">سرعة طائشة... ونهاية واحدة.</span></p>
+      </div>
+      <a class="scroll-cue" href="#illusion">
+        <span class="mouse" aria-hidden="true"></span>
+        <span>شاهد الحقيقة</span>
+      </a>
+    </section>
 
-        <section class="story-section story-reverse">
-            <div class="story-image-container sticky-img">
-                <img src="assets/images/helmet_crash.jpg" alt="حادث مأساوي" class="story-img">
-                <div class="vignette-overlay"></div>
-            </div>
-            <div class="story-content scroll-reveal">
-                <h2 class="story-title text-red">الواقع المأساوي</h2>
-                <p class="story-desc">جزء من الثانية يغير كل شيء. صوت تهشم الزجاج، احتكاك المعدن بالإسفلت. الخوذة التي كان يجب أن تحميك أصبحت الشاهد الوحيد على تهورك.</p>
-            </div>
-        </section>
+    <section class="story" id="illusion" aria-labelledby="illusion-title">
+      <figure class="story-media">
+        <button type="button" class="zoom" aria-label="كبّر الصورة: وهم السيطرة">
+          <img src="images/speed_blur.jpg" alt="عداد دراجة نارية يضيء بالبرتقالي على طريق سريع ليلي، والسيارات والأضواء تنسحب ضبابية إلى الخلف." width="1920" height="1071" loading="lazy" decoding="async" data-title="وهم السيطرة" data-desc="عداد يتجاوز الحدود، والطريق يتحول إلى خطوط ضوء. تصوّر بصري.">
+        </button>
+      </figure>
+      <div class="story-text reveal">
+        <h2 id="illusion-title">وهم السيطرة</h2>
+        <p>عداد السرعة يتجاوز الحدود، الأضواء تتداخل، والأدرينالين يعمي البصيرة. في هذه اللحظة، تعتقد أنك تملك الشارع، لكنك في الواقع تفقد السيطرة على حياتك.</p>
+      </div>
+    </section>
 
-        <section class="story-section">
-            <div class="story-image-container sticky-img">
-                <img src="assets/images/dark_end.jpg" alt="النهاية الحتمية" class="story-img">
-                <div class="vignette-overlay"></div>
-            </div>
-            <div class="story-content scroll-reveal">
-                <h2 class="story-title">الطريق المظلم</h2>
-                <p class="story-desc"><span id="claim-1">السرعة الطائشة لا تقودك إلى وجهتك <a href="https://kakramah.github.io/motor-site/stats">المصدر</a></span>، بل تختصر طريقك نحو النهاية. لا تكن مجرد رقم آخر في سجل الحوادث المظلم.</p>
-            </div>
-        </section>
-        
-        <section class="cta-section scroll-reveal">
-            <h2 class="cta-title">حياتك أغلى من سرعة عابرة</h2>
-            <p class="cta-desc">كن واعياً. قد بحذر. لا تجعل عائلتك تدفع ثمن تهورك.</p>
-            <button class="cta-button">شارك رسالة التوعية</button>
-        </section>
-    
-        <footer class="site-footer">
-            <div class="footer-content">
-                <img src="assets/brand/eagle-emblem-metal.svg" alt="شعار العقاب" class="eagle-emblem">
-                <p class="signature">@𝓚𝓱𝓪𝓵𝓭𝓸𝓾𝓷𝓐𝓴𝓻𝓪𝓶𝓪𝓱</p>
-                <div class="contact-links">
-                    <a href="https://wa.me/966566702030">واتساب</a> | 
-                    <a href="https://instagram.com/khaldounakramah">إنستغرام</a> | 
-                    <a href="mailto:mailto:akramahkhaldoun@gmail.com">إيميل</a>
-                </div>
-            </div>
-        </footer>
-    </main>
+    <section class="story story-flip" id="impact" aria-labelledby="impact-title">
+      <figure class="story-media">
+        <button type="button" class="zoom" aria-label="كبّر الصورة: الواقع المأساوي">
+          <img src="images/helmet_crash.jpg" alt="خوذة سوداء مهشمة الزجاج ملقاة على إسفلت متشقق ليلاً، وضوء أحمر لسيارة إسعاف في البعيد." width="1920" height="1071" loading="lazy" decoding="async" data-title="الواقع المأساوي" data-desc="خوذة مهشمة على الإسفلت، وضوء إسعاف يقترب متأخراً. تصوّر بصري.">
+        </button>
+      </figure>
+      <div class="story-text reveal">
+        <h2 id="impact-title" class="accent">الواقع المأساوي</h2>
+        <p>جزء من الثانية يغير كل شيء. صوت تهشم الزجاج، احتكاك المعدن بالإسفلت. الخوذة التي كان يجب أن تحميك أصبحت الشاهد الوحيد على تهورك.</p>
+      </div>
+    </section>
 
+    <section class="story" id="dark-road" aria-labelledby="dark-road-title">
+      <figure class="story-media">
+        <button type="button" class="zoom" aria-label="كبّر الصورة: الطريق المظلم">
+          <img src="images/dark_end.jpg" alt="طريق إسفلتي خالٍ بين أشجار داكنة في الضباب، وفي آخره هيئة بعباءة سوداء تحمل منجلاً." width="1920" height="1071" loading="lazy" decoding="async" data-title="الطريق المظلم" data-desc="طريق خالٍ في الضباب، وفي آخره من ينتظر المسرع. تصوّر بصري.">
+        </button>
+      </figure>
+      <div class="story-text reveal">
+        <h2 id="dark-road-title">الطريق المظلم</h2>
+        <p>السرعة الطائشة لا تقودك إلى وجهتك، بل تختصر طريقك نحو النهاية. لا تكن مجرد رقم آخر في سجل الحوادث المظلم.</p>
+      </div>
+    </section>
 
-    <script src="app.js"></script>
+    <section class="call reveal" id="share" aria-labelledby="call-title">
+      <h2 id="call-title">حياتك أغلى من سرعة عابرة</h2>
+      <p class="call-desc">كن واعياً. قد بحذر. لا تجعل عائلتك تدفع ثمن تهورك.</p>
+      <button type="button" id="share-native" class="primary">شارك رسالة التوعية</button>
+      <div class="share-actions">
+        <button type="button" id="share-copy">انسخ الرابط</button>
+        <a id="share-whatsapp" href="https://wa.me/?text=https%3A%2F%2Fkakramah.github.io%2Fmotor-site%2F" target="_blank" rel="noopener noreferrer" aria-label="شارك عبر واتساب">واتساب</a>
+        <a id="share-telegram" href="https://t.me/share/url?url=https%3A%2F%2Fkakramah.github.io%2Fmotor-site%2F" target="_blank" rel="noopener noreferrer" aria-label="شارك عبر تلغرام">تلغرام</a>
+        <a id="share-x" href="https://x.com/intent/post?url=https%3A%2F%2Fkakramah.github.io%2Fmotor-site%2F" target="_blank" rel="noopener noreferrer" aria-label="شارك عبر إكس">إكس</a>
+        <a id="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkakramah.github.io%2Fmotor-site%2F" target="_blank" rel="noopener noreferrer" aria-label="شارك عبر فيسبوك">فيسبوك</a>
+      </div>
+      <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-identity">
+      <span class="signature" dir="ltr">جميع الحقوق محفوظة © 2026 · 𝓚𝓱𝓪𝓵𝓭𝓸𝓾𝓷𝓐𝓴𝓻𝓪𝓶𝓪𝓱</span>
+      <img src="images/eagle-emblem-metal.svg" alt="العقاب المعتمد لهوية خلدون عكرمة" width="88" height="66">
+      <div class="social" aria-label="روابط التواصل">
+        <a href="https://wa.me/966566702030" aria-label="واتساب" title="واتساب" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.4-5.1A8.5 8.5 0 1 1 20.5 11.5Z"/><path d="M8.4 7.9c-.4 0-.8.8-.8 1.4 0 2.3 3 5.3 5.4 5.6.7.1 1.6-.4 1.6-.8l-1.8-1-1.1.8a6.6 6.6 0 0 1-2.5-2.5l.8-1.1-1-1.8Z"/></svg></a>
+        <a href="https://instagram.com/khaldounakramah" aria-label="إنستغرام" title="إنستغرام" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="mailto:akramahkhaldoun@gmail.com" aria-label="البريد" title="البريد"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+    <button type="button" class="lightbox-close" aria-label="أغلق الصورة">×</button>
+    <button type="button" class="lightbox-prev" aria-label="الصورة السابقة">›</button>
+    <figure>
+      <img id="lightbox-img" src="images/speed_blur.jpg" alt="" width="1920" height="1071">
+      <figcaption><strong id="lightbox-title"></strong><span id="lightbox-desc"></span></figcaption>
+    </figure>
+    <button type="button" class="lightbox-next" aria-label="الصورة التالية">‹</button>
+  </div>
 </body>
 </html>
